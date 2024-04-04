@@ -1,0 +1,10 @@
+def print_sum_of_current_and_previous(n):
+    previous_number = 0
+    for i in range(1, n + 1):
+        current_number = i
+        total_sum = previous_number + current_number
+        print("Current number:", current_number, "Previous number:", previous_number, "Sum:", total_sum)
+        previous_number = current_number
+
+# Iterate through the first 10 numbers
+print_sum_of_current_and_previous(10)
