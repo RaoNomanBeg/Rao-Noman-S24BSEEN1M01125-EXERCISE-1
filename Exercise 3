@@ -1,0 +1,9 @@
+def print_characters_at_even_index(input_string):
+    for index in range(len(input_string)):
+        if index % 2 == 0:
+            print(input_string[index])
+
+# Accepting input from the user
+user_input = input("Enter a string: ")
+print("Characters present at even index numbers:")
+print_characters_at_even_index(user_input)
